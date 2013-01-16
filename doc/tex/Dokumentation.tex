@@ -1,0 +1,51 @@
+\input{header.tex}
+
+\title{Systemprogrammierung}
+\author{Andreas Linz & Tobias Sekan}
+\date{\today}
+
+\begin{document}
+    \begin{titlepage}
+        \begin{center}
+        {\LARGE HTWK-Leipzig}\\[\baselineskip]
+        \hrule \vspace{12pt}
+        {\Large Systemprogrammierung -- WS 2012/2013}\\
+        {\normalsize Prof. Dr. Klaus Bastian}\\[2\baselineskip]
+        
+        \begin{figure}[!h]
+        	\centering
+	        \includegraphics[width=0.4\linewidth]{../images/title_logo}\\        
+        \end{figure}
+    	%\tiny Logo Icons aus Tango Icon Gallery \url{http://tango.freedesktop.org/Tango_Icon_Library}\\
+      	
+		{\LARGE \textbf{Projekt:} Linux RAM Drive}\\[2\baselineskip]
+        \textit{bearbeitet von:\\Andreas Linz \& Tobias Sekan}\\[\baselineskip]
+        \hrule
+		\vfill
+        Stand \today
+        \vfill
+        \begin{flushright}
+         gesetzt mit \LaTeX
+        \end{flushright}
+        \end{center}
+    \end{titlepage}
+
+	\pagenumbering{roman}   
+    \tableofcontents
+
+    \newpage
+
+	\pagenumbering{arabic}	% in scrbook class \mainmatter
+	\setcounter{page}{1}
+	
+	\input{Einleitung}
+	\underline{}
+	\newpage
+	
+	\appendix
+	\section{Anhang / Quellen}
+	
+	\input{appendix}
+
+
+\end{document}

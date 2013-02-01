@@ -4,3 +4,10 @@
 *.swp
 *.toc
 *.tex~
+start.sh
+*.sh~
+*.cmd
+*.symvers
+*.mod.*
+*.order
+.tmp_versions

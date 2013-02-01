@@ -1,8 +1,8 @@
 \section{Einleitung}
 \label{sec:einleitung}
 
-Im Rahmen des Moduls \enquote{Systemprogrammierung} war ein Linux-Gerätetreiber zu entwickeln. Wir entschieden uns dafür ein \href{http://en.wikipedia.org/wiki/RAM_drive}{RAM-Drive}; also einen Blockgerätetreiber, zu entwerfen.
+Im Rahmen des Moduls \enquote{Systemprogrammierung} war ein Linux-Gerätetreiber zu entwickeln. Wir entschieden uns dafür eine \href{http://en.wikipedia.org/wiki/RAM_drive}{Ramdisk}; also einen Blockgerätetreiber, zu entwerfen. \footnote{Die Begriffe \emph{Ramdisk} und \emph{Ram-Drive} sind gleichbedeutend.}
 
-In der folgenden Dokumentation werden wir einige Grundlagen erklären, auf die notwendigen Begrifflichkeiten eingehen und den erstellten Quellcode analysieren. Außerdem wird die Einbindung und die Nutzung des \enquote{RAM-Drive} an einem konkreten Beispiel demonstriert.
+In der folgenden Dokumentation werden wir einige Grundlagen erklären, auf die notwendigen Begrifflichkeiten eingehen und den erstellten Quellcode analysieren. Außerdem wird die Einbindung und die Nutzung der \enquote{Ramdisk} an einem konkreten Beispiel demonstriert.
 
-Als Entwicklungs- und Testsystem wurde ein 64-Bit \href{http://www.linuxmint.com/}{Linux Mint} mit Kernel-Release \textbf{3.5.0-21-generic}\footnote{Das verwendete Kernel-Release kann mit \texttt{uname -r} abgerufen werden} genutzt.
+Als Entwicklungs- und Testsystem wurde ein 64-Bit \href{http://www.linuxmint.com/}{Linux Mint} mit Kernel-Release \textbf{3.5.0-22-generic}\footnote{Das verwendete Kernel-Release kann mit \texttt{uname -r} abgerufen werden} genutzt.

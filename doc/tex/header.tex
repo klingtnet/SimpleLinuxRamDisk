@@ -10,3 +10,36 @@
 \usepackage{amsmath,amssymb,amstext}
 % see http://latex.tugraz.at/latex/tutorial
 \usepackage{listings}
+\usepackage{xcolor}
+
+\newcommand{\figref}[1]{\figurename~\ref{#1}}
+
+\definecolor{magenta}{cmyk}{0,1,0,0}
+\definecolor{gray}{rgb}{0.4,0.4,0.4}
+\definecolor{lightgray}{rgb}{0.95, 0.95, 0.95}
+\xdefinecolor{forest}{hsb}{0.35,1,0.7}
+\xdefinecolor{darkforest}{hsb}{0.35,1,0.55}
+
+\lstset{ %
+  basicstyle        =\small,       % the size of the fonts that are used for the code
+  numbers           =left,                   % where to put the line-numbers
+  numberstyle       =\tt\color{gray},  % the style that is used for the line-numbers
+  numbersep         =5pt,                  % how far the line-numbers are from the code
+  rulecolor         =\color{black},        % if not set, the frame-color may be changed on line-breaks within not-black text
+  backgroundcolor   =\color{lightgray},
+  showtabs          =false,
+  tabsize           =3,                      % sets default tabsize to 3 spaces
+  captionpos        =b,                   % sets the caption-position to bottom
+  breaklines        =true,                % sets automatic line breaking
+  breakatwhitespace =false,        % sets if automatic breaks should only happen at whitespace
+  title             =\lstname,                 % show the filename of files included with \lstinputlisting;
+                                  % also try caption instead of title
+  keywordstyle     =\color{magenta},   % keyword style
+  stringstyle      =\color{forest},     % string literal style
+  commentstyle     =\color{gray},      % comment style
+  escapeinside     ={\%*}{*)},         % if you want to add LaTeX within your code
+  morekeywords     ={*,...},            % if you want to add more keywords to the set
+  frame            =single,
+  framexleftmargin = 5mm,
+  aboveskip = \baselineskip
+}

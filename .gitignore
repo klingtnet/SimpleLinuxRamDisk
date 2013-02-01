@@ -11,3 +11,4 @@ start.sh
 *.mod.*
 *.order
 .tmp_versions
+*.o

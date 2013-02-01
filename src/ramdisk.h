@@ -1,4 +1,4 @@
-/* RamDisk - Makefile
+/* RamDisk - header
  *
  * Andreas Linz & Tobias Sekan
  * andreas.linz@stud.htwk-leipzig.de

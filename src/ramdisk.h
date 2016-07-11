@@ -15,6 +15,7 @@
 #include <linux/genhd.h>
 #include <linux/blkdev.h>
 #include <linux/hdreg.h>
+#include <linux/vmalloc.h>
 
 #define DEVICENAME          "RamDisk"
 #define PRINT_PREFIX        "RamDisk: "
